@@ -38,8 +38,7 @@ Run CBC Qwen2.5 on two GPUs:
 ```bash
 CUDA_VISIBLE_DEVICES=0,1 python scripts/agent_attack.py \
   --cfg_path config/qwen2/DPI_RL.yml \
-  --output_dir logs/cbc_qwen2_demo \
-  --skip-refusal-judge
+  --output_dir logs/cbc_qwen2_demo
 ```
 
 For other CBC models, use [`config/llama3/DPI_RL.yml`](../asb/config/llama3/DPI_RL.yml) or [`config/qwen3/DPI_RL.yml`](../asb/config/qwen3/DPI_RL.yml). Choose a new output directory for each run.
@@ -107,13 +106,8 @@ vLLM settings use **environment variables**, not YAML fields:
 CUDA_VISIBLE_DEVICES=2,3 ASB_TENSOR_PARALLEL_SIZE=2 \
 python scripts/agent_attack.py \
   --cfg_path config/custom_defense.yml \
-  --output_dir logs/my_defense_run_1 \
-  --skip-refusal-judge
+  --output_dir logs/my_defense_run_1
 ```
-
-Add `--dry-run` to check the config first. Remove `--skip-refusal-judge` when judge
-credentials are configured. Use `--model vllm::/path/to/model` to override the
-checkpoint without editing YAML. Keep evaluation settings unchanged when comparing defenses.
 
 ## 4. Results
 
