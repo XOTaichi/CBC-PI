@@ -1,7 +1,8 @@
 # 🛡️ CBC: Consistency Before Complying
 
 [![EMNLP 2026](https://img.shields.io/badge/EMNLP_2026-Accepted-success)](https://aclanthology.org/2026.emnlp-main.2303/)
-[![Models](https://img.shields.io/badge/ModelScope-Models-blue)](#model-downloads)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Models-yellow)](#model-downloads)
+[![ModelScope](https://img.shields.io/badge/ModelScope-Models-blue)](#model-downloads)
 [![Evaluation](https://img.shields.io/badge/Evaluation-Coming_soon-orange)](#evaluation)
 
 Official repository for **Staying on Task: Defending Against Prompt Injection via Task Consistency Checking**, accepted to **EMNLP 2026**.
@@ -40,13 +41,13 @@ This repository is being prepared for release. Evaluation code and standalone re
 
 ### CBC checkpoints
 
-| Backbone | CBC checkpoint |
-| --- | --- |
-| Qwen2.5-7B-Instruct | [augusttailong/grpo_qwen_0202](https://modelscope.cn/models/augusttailong/grpo_qwen_0202) |
-| Llama-3.1-8B-Instruct | [augusttailong/grpo_llama3_0204](https://modelscope.cn/models/augusttailong/grpo_llama3_0204) |
-| Qwen3-14B | [augusttailong/grpo_qwen3_0211](https://modelscope.cn/models/augusttailong/grpo_qwen3_0211) |
+| Backbone | Hugging Face | ModelScope |
+| --- | --- | --- |
+| Qwen2.5-7B-Instruct | [grpo_qwen_0202](https://huggingface.co/XOTaiChi/grpo_qwen_0202) | [grpo_qwen_0202](https://modelscope.cn/models/augusttailong/grpo_qwen_0202) |
+| Llama-3.1-8B-Instruct | [grpo_llama3_0204](https://huggingface.co/XOTaiChi/grpo_llama3_0204) | [grpo_llama3_0204](https://modelscope.cn/models/augusttailong/grpo_llama3_0204) |
+| Qwen3-14B | [grpo_qwen3_0211](https://huggingface.co/XOTaiChi/grpo_qwen3_0211) | [grpo_qwen3_0211](https://modelscope.cn/models/augusttailong/grpo_qwen3_0211) |
 
-CBC checkpoints are hosted on ModelScope. Inference examples will accompany the evaluation code release. The following links provide the original backbones; they do not contain CBC alignment weights.
+CBC checkpoints are available on both Hugging Face and ModelScope. Inference examples will accompany the evaluation code release. The following links provide the original backbones; they do not contain CBC alignment weights.
 
 ### Original backbones
 
