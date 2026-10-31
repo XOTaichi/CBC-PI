@@ -1,0 +1,26 @@
+@inproceedings{xu-etal-2026-staying,
+    title = "Staying on Task: Defending Against Prompt Injection via Task Consistency Checking",
+    author = "Xu, Feiyue  and
+      Mu, Jiaming  and
+      Li, Fengting  and
+      Zhu, Bin Benjamin  and
+      Hu, Hongsheng  and
+      Liu, Qiankun  and
+      Wang, Shuo  and
+      He, Chaoxiang  and
+      Feng, Chao",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.2303/",
+    doi = "10.18653/2026.emnlp-main.2303",
+    pages = "52349--52375",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Large language models (LLMs) deployed in real-world applications process heterogeneous inputs, including system prompts, user requests, and external content, exposing them to prompt injection attacks. Existing defenses, including prompt-level safeguards, external filters, and source-aware instruction handling, remain brittle against diverse direct and indirect prompt injection attacks. We propose **CBC** (*Consistency Before Complying*), a task-consistency alignment framework to defend against task-redirection prompt-injection attacks. **CBC** characterizes task consistency through semantic conflicts along action, constraint, and domain dimensions, then uses structured reasoning to determine whether newly introduced instructions are consistent with the original task before acting on them. Using targeted synthetic supervision, we train **CBC** to reason about task consistency and further strengthen this capability through dual-objective online alignment while preserving task utility. Across three model families and a diverse set of direct and indirect prompt-injection benchmarks, **CBC** improves defense success rates by up to 13.2 percentage points over the strongest baseline while better preserving task utility under attack. Our code and models can be found at: https://github.com/XOTaichi/CBC-PI.git"
+}
