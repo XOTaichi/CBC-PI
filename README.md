@@ -1,5 +1,8 @@
 # CBC: Consistency Before Complying
 
+> **A comprehensive evaluation suite for your next prompt-injection defense baseline.**
+> Our evaluation code spans direct and indirect prompt injection, adaptive attacks, and general task utility across multiple model families. We are preparing it for release so researchers can reuse the evaluation setup to benchmark new defenses and build future baselines, saving the effort of assembling separate benchmark pipelines. **Evaluation code release: coming soon.**
+
 Official repository for **Staying on Task: Defending Against Prompt Injection via Task Consistency Checking**, accepted to **EMNLP 2026**.
 
 **Feiyue Xu, Jiaming Mu, Fengting Li, Bin Benjamin Zhu, Hongsheng Hu, Qiankun Liu, Shuo Wang, Chaoxiang He, and Chao Feng**
@@ -22,7 +25,7 @@ Experiments cover three backbones: Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct, a
 
 ## Release roadmap
 
-This repository is being prepared for release. Evaluation entry points are listed below for reference; their migration into this repository and standalone reproduction instructions are pending.
+This repository is being prepared for release. Evaluation code and standalone reproduction instructions are coming soon.
 
 - [x] Publish the project overview and method illustration.
 - [ ] Release evaluation code, environment specifications, and reproduction commands.
@@ -61,7 +64,7 @@ Please follow the access requirements and license terms on each model page.
 | CBC-SFT | Synthetic task-consistency supervision with structured reasoning; 23,637 training and 1,243 validation examples after filtering | Coming soon |
 | CBC-GRPO | Online-alignment prompts; 4,880 training and 1,220 validation examples | Coming soon |
 
-These sizes follow Appendix C.2 of the paper. The data-synthesis code is a separate release item; see [CBC data synthesis](#cbc-data-synthesis-todo).
+The data-synthesis code is a separate release item; see [CBC data synthesis](#cbc-data-synthesis-todo).
 
 ### Prompt-injection evaluation data
 
