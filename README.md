@@ -1,13 +1,16 @@
-# CBC: Consistency Before Complying
+# 🛡️ CBC: Consistency Before Complying
 
-> **A comprehensive evaluation suite for your next prompt-injection defense baseline.**
-> Our evaluation code spans direct and indirect prompt injection, adaptive attacks, and general task utility across multiple model families. We are preparing it for release so researchers can reuse the evaluation setup to benchmark new defenses and build future baselines, saving the effort of assembling separate benchmark pipelines. **Evaluation code release: coming soon.**
+[![EMNLP 2026](https://img.shields.io/badge/EMNLP_2026-Accepted-success)](https://aclanthology.org/2026.emnlp-main.2303/)
+[![Models](https://img.shields.io/badge/ModelScope-Models-blue)](#model-downloads)
+[![Evaluation](https://img.shields.io/badge/Evaluation-Coming_soon-orange)](#evaluation)
 
 Official repository for **Staying on Task: Defending Against Prompt Injection via Task Consistency Checking**, accepted to **EMNLP 2026**.
 
 **Feiyue Xu, Jiaming Mu, Fengting Li, Bin Benjamin Zhu, Hongsheng Hu, Qiankun Liu, Shuo Wang, Chaoxiang He, and Chao Feng**
 
-[Paper](https://aclanthology.org/2026.emnlp-main.2303/) · [Citation](#citation) · [Overview](#overview) · [Models](#model-downloads) · [Datasets](#dataset-downloads) · [Evaluation](#evaluation) · [Data synthesis](#cbc-data-synthesis-todo) · [TODO](#release-roadmap)
+[📄 Paper](https://aclanthology.org/2026.emnlp-main.2303/) · [📝 Citation](#citation) · [🔍 Overview](#overview) · [🤗 Models](#model-downloads) · [📚 Datasets](#dataset-downloads) · [🧪 Evaluation](#evaluation) · [🛠️ Data synthesis](#cbc-data-synthesis-todo) · [📋 TODO](#release-roadmap)
+
+> 🤝 **We welcome you to reuse our comprehensive evaluation code for future baselines!** *(Coming soon.)*
 
 ## Overview
 
