@@ -1,0 +1,2 @@
+# Shared cbc_test environment exported at the repository root.
+-r ../../requirements.txt

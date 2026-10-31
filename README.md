@@ -131,3 +131,8 @@ If you find this work useful, please cite our [EMNLP 2026 paper](https://aclanth
 ## Acknowledgments
 
 We thank the authors of the models, benchmarks, and datasets linked above. Third-party resources remain subject to their respective licenses.
+
+
+### ASB evaluation code
+
+The initial ASB code preparation is available in [ASB evaluation guide](evaluation/docs/asb.md), including the `cbc_test` environment, launch configs and result summaries. Full inference validation is pending.

@@ -1,0 +1,14 @@
+injection_method: direct_prompt_injection
+attack_tool:
+  - all
+  # - agg
+  # - non-agg
+  # - test
+
+write_db: false # true,false
+
+llms:
+  - promptarmor::${CBC_MODELS_DIR}/Qwen2.5-7B-Instruct
+
+attack_types:
+  - combined_attack
