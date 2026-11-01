@@ -1,0 +1,4 @@
+results/
+.env
+__pycache__/
+llm_cache.json

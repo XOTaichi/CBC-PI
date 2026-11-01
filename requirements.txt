@@ -65,6 +65,7 @@ importlib_resources==7.1.0
 interegular==0.3.3
 Jinja2==3.1.6
 jiter==0.18.0
+joblib==1.6.0
 jsonlines==4.0.0
 jsonpatch==1.38
 jsonpointer==3.6
@@ -92,6 +93,7 @@ multidict==7.2.1
 nest-asyncio==1.6.0
 networkx==3.6.1
 ninja==1.13.2
+nltk==3.9.2
 numba==0.61.2
 numpy==1.26.4
 nvidia-cublas-cu12==12.6.4.1
