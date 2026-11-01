@@ -34,7 +34,8 @@ This repository is being prepared for release. Evaluation code and standalone re
 - [x] Publish the project overview and method illustration.
 - [ ] Release evaluation code, environment specifications, and reproduction commands.
 - [x] Publish CBC model checkpoints and download links.
-- [ ] Publish CBC training data and the exact evaluation subsets/configurations.
+- [x] Release CBC SFT source data in standard and native formats.
+- [ ] Release CBC GRPO training data and the exact evaluation subsets/configurations.
 - [ ] **Release the pipeline for synthesizing CBC training data from scratch.**
 
 ## Model downloads
@@ -65,8 +66,10 @@ Please follow the access requirements and license terms on each model page.
 
 | Dataset | Contents | Download |
 | --- | --- | --- |
-| CBC-SFT | Synthetic task-consistency supervision with structured reasoning; 23,637 training and 1,243 validation examples after filtering | Coming soon |
+| CBC-SFT | 25,000 unfiltered source examples; standard and native data-role SFT formats | [Hugging Face](https://huggingface.co/datasets/XOTaiChi/CBC-SFT) |
 | CBC-GRPO | Online-alignment prompts; 4,880 training and 1,220 validation examples | Coming soon |
+
+The SFT release contains the full unfiltered source export, rather than the paper's exact filtered training/validation splits. Choose `default` for standard chat roles or `cbc_native` to retain the separate `data` role. The native format requires a chat template that explicitly renders `data`; see the [dataset card](https://huggingface.co/datasets/XOTaiChi/CBC-SFT#using-the-native-data-role) for the Qwen2.5 example.
 
 The data-synthesis code is a separate release item; see [CBC data synthesis](#cbc-data-synthesis-todo).
 
